@@ -14,7 +14,7 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+ 
   <dependencies>
     <!-- Other dependencies -->
    <dependency>
@@ -24,4 +24,5 @@
       <scope>test</scope>
   </dependency>
 </dependencies>
+     </build>
 </project>
