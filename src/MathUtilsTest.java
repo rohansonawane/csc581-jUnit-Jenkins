@@ -7,14 +7,7 @@ import org.junit.jupiter.api.Test;
 class MathUtilsTest {
 
 private MathUtils mathUtils;
-	
-	
 
-	@Test
-	void test() {
-		
-	}
-	
 	@BeforeEach
     public void setUp() {
         mathUtils = new MathUtils();
@@ -27,7 +20,7 @@ private MathUtils mathUtils;
 
     @Test
     public void testAdd() {
-        assertEquals(5, mathUtils.add(2, 3));
+        assertEquals(6, mathUtils.add(2, 3));
         assertEquals(-1, mathUtils.add(-2, 1));
        
         assertEquals(3, mathUtils.add(1, 2));
